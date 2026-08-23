@@ -1,0 +1,1 @@
+function encode(s) { return Buffer.from(s).toString('base64'); } module.exports = { encode };
